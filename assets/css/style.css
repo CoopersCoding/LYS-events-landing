@@ -16,7 +16,7 @@ body {
 }
 
 a {
-  color: #E4574F;
+  color: #B6463B;
   text-decoration: none;
   transition: 0.5s;
 }
@@ -24,7 +24,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #f8234a;
+  color: #3AB571;
   outline: none;
   text-decoration: none;
 }
@@ -73,7 +73,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #E4574F;
+  background: #B6463B;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -87,7 +87,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #f94a6a;
+  background: #3AB571;
   color: #fff;
 }
 
@@ -110,7 +110,7 @@ h6 {
   display: block;
   width: 60px;
   height: 5px;
-  background: #E4574F;
+  background: #B6463B;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -165,7 +165,7 @@ h6 {
 }
 
 #header #logo h1 span {
-  color: #E4574F;
+  color: #B6463B;
 }
 
 #header #logo h1 a,
@@ -190,11 +190,11 @@ h6 {
 --------------------------------------------------------------*/
 .buy-tickets {
   color: #fff;
-  background: #E4574F;
+  background: #B6463B;
   padding: 7px 22px;
   margin: 0 0 0 15px;
   border-radius: 50px;
-  border: 2px solid #E4574F;
+  border: 2px solid #B6463B;
   transition: all ease-in-out 0.3s;
   font-weight: 500;
   line-height: 1;
@@ -273,7 +273,7 @@ h6 {
   height: 2px;
   bottom: -6px;
   left: 0;
-  background-color: #E4574F;
+  background-color: #B6463B;
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -325,7 +325,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #E4574F;
+  color: #B6463B;
 }
 
 .navbar .dropdown:hover>ul {
@@ -430,7 +430,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #E4574F;
+  color: #B6463B;
 }
 
 .navbar-mobile .getstarted,
@@ -465,7 +465,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #E4574F;
+  color: #B6463B;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -529,7 +529,7 @@ h6 {
 }
 
 #hero h1 span {
-  color: #E4574F;
+  color: #B6463B;
 }
 
 @media (max-width: 991px) {
@@ -553,7 +553,7 @@ h6 {
 #hero .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#E4574F 50%, rgba(101, 111, 150, 0.15) 52%);
+  background: radial-gradient(#B6463B 50%, rgba(101, 111, 150, 0.15) 52%);
   border-radius: 50%;
   display: block;
   position: relative;
@@ -594,7 +594,7 @@ h6 {
 }
 
 #hero .play-btn:hover::after {
-  border-left: 15px solid #E4574F;
+  border-left: 15px solid #B6463B;
   transform: scale(20);
 }
 
@@ -628,11 +628,11 @@ h6 {
   margin: 10px;
   color: #fff;
   animation-delay: 0.8s;
-  border: 2px solid #E4574F;
+  border: 2px solid #B6463B;
 }
 
 #hero .about-btn:hover {
-  background: #E4574F;
+  background: #B6463B;
   color: #fff;
 }
 
@@ -749,7 +749,7 @@ h6 {
 }
 
 #speakers .speaker .details a:hover {
-  color: #E4574F;
+  color: #B6463B;
 }
 
 #speakers .speaker:hover .details {
@@ -786,7 +786,7 @@ h6 {
 }
 
 #speakers-details .details .social a:hover {
-  background: #E4574F;
+  background: #B6463B;
   color: #fff;
 }
 
@@ -818,7 +818,16 @@ h6 {
 
 #schedule .nav-tabs li {
   display: inline-block;
-  margin-bottom: 0;
+  margin-bottom: 0px;
+}
+
+@media (max-width: 1200px) {
+  #schedule .nav-tabs li {
+      display: inline-block;
+      width: 75%;
+      margin-bottom: 5px;
+      
+  }
 }
 
 #schedule .nav-tabs a {
@@ -840,6 +849,7 @@ h6 {
   #schedule .nav-tabs a {
     padding: 8px 50px;
   }
+
 }
 
 @media (max-width: 480px) {
@@ -848,8 +858,20 @@ h6 {
   }
 }
 
+@media only screen and (max-width: 414px) {
+  .schedule-item {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+  .nav-item {
+    flex-basis: 50%;
+  }
+}
+
 #schedule .nav-tabs a.active {
-  background-color: #E4574F;
+  background-color: #B6463B;
   color: #fff;
 }
 
@@ -918,7 +940,7 @@ h6 {
 #schedule .schedule-item p {
   font-style: italic;
   color: #152b79;
-  margin-bottom: 0;
+  margin-bottom: 5px;
 }
 
 /*--------------------------------------------------------------
@@ -1029,11 +1051,11 @@ h6 {
 }
 
 #events-info a {
-  color: #E4574F;
+  color: #B6463B;
 }
 
 #hotels a:hover {
-  color: #E4574F;
+  color: #B6463B;
 }
 
 #hotels .stars {
@@ -1071,11 +1093,11 @@ h6 {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #E4574F;
+  border: 1px solid #B6463B;
 }
 
 #gallery .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #E4574F;
+  background-color: #B6463B;
 }
 
 #gallery .swiper-slide-active {
@@ -1088,7 +1110,7 @@ h6 {
   }
 
   #gallery .swiper-slide-active {
-    border: 5px solid #E4574F;
+    border: 5px solid #B6463B;
     padding: 4px;
     background: #fff;
     z-index: 1;
@@ -1151,13 +1173,13 @@ h6 {
 #faq .faq-list .question {
   display: block;
   position: relative;
-  font-family: #E4574F;
+  font-family: #B6463B;
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
   padding-left: 25px;
   cursor: pointer;
-  color: #e0072f;
+  color: #3AB571;
   transition: 0.3s;
 }
 
@@ -1182,7 +1204,7 @@ h6 {
 }
 
 #faq .faq-list .collapsed:hover {
-  color: #E4574F;
+  color: #B6463B;
 }
 
 #faq .faq-list .collapsed .icon-show {
@@ -1248,7 +1270,7 @@ h6 {
   border: 0;
   padding: 9px 25px;
   cursor: pointer;
-  background: #E4574F;
+  background: #B6463B;
   color: #fff;
   transition: all 0.3s ease;
   outline: none;
@@ -1257,7 +1279,7 @@ h6 {
 }
 
 #subscribe button:hover {
-  background: #e0072f;
+  background: #3AB571;
 }
 
 @media (max-width: 460px) {
@@ -1313,13 +1335,13 @@ h6 {
   border-radius: 50px;
   padding: 10px 40px;
   transition: all 0.2s;
-  background-color: #E4574F;
+  background-color: #B6463B;
   border: 0;
   color: #fff;
 }
 
 #buy-tickets .card .btn:hover {
-  background-color: #e0072f;
+  background-color: #3AB571;
 }
 
 #buy-tickets #buy-ticket-modal input,
@@ -1332,13 +1354,13 @@ h6 {
   border-radius: 50px;
   padding: 10px 40px;
   transition: all 0.2s;
-  background-color: #E4574F;
+  background-color: #B6463B;
   border: 0;
   color: #fff;
 }
 
 #buy-tickets #buy-ticket-modal .btn:hover {
-  background-color: #e0072f;
+  background-color: #3AB571;
 }
 
 /*--------------------------------------------------------------
@@ -1357,7 +1379,7 @@ h6 {
   font-size: 48px;
   display: inline-block;
   margin-bottom: 10px;
-  color: #E4574F;
+  color: #B6463B;
 }
 
 #contact .contact-info address,
@@ -1379,7 +1401,7 @@ h6 {
 }
 
 #contact .contact-info a:hover {
-  color: #E4574F;
+  color: #B6463B;
 }
 
 #contact .contact-address,
@@ -1454,7 +1476,7 @@ h6 {
 
 #contact .php-email-form input:focus,
 #contact .php-email-form textarea:focus {
-  border-color: #E4574F;
+  border-color: #B6463B;
 }
 
 #contact .php-email-form input {
@@ -1466,7 +1488,7 @@ h6 {
 }
 
 #contact .php-email-form button[type=submit] {
-  background: #E4574F;
+  background: #B6463B;
   border: 0;
   padding: 10px 40px;
   color: #fff;
@@ -1476,7 +1498,7 @@ h6 {
 }
 
 #contact .php-email-form button[type=submit]:hover {
-  background: #e0072f;
+  background: #3AB571;
 }
 
 @keyframes animate-loading {
@@ -1552,7 +1574,7 @@ h6 {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #E4574F;
+  background: #B6463B;
   color: #fff;
 }
 
@@ -1563,7 +1585,7 @@ h6 {
   text-transform: uppercase;
   position: relative;
   padding-bottom: 12px;
-  border-bottom: 2px solid #E4574F;
+  border-bottom: 2px solid #B6463B;
 }
 
 #footer .footer-top .footer-links {
@@ -1578,7 +1600,7 @@ h6 {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 5px;
-  color: #E4574F;
+  color: #B6463B;
   font-size: 18px;
 }
 
@@ -1596,7 +1618,7 @@ h6 {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #E4574F;
+  color: #B6463B;
 }
 
 #footer .footer-top .footer-contact {
@@ -1618,7 +1640,7 @@ h6 {
 }
 
 #footer .footer-top .footer-newsletter input[type=submit] {
-  background: #E4574F;
+  background: #B6463B;
   border: 0;
   width: 35%;
   padding: 6px 0;
@@ -1629,7 +1651,7 @@ h6 {
 }
 
 #footer .footer-top .footer-newsletter input[type=submit]:hover {
-  background: #e0072f;
+  background: #3AB571;
 }
 
 #footer .copyright {
