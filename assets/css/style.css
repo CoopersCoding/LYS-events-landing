@@ -1664,3 +1664,19 @@ h6 {
   font-size: 13px;
   color: #ddd;
 }
+
+.legal {
+  font-size: xx-small;
+  align-items: center;
+  /*center text and create a margin*/
+  display: flex;
+  justify-content: center;
+  margin: 0 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .legal {
+    margin: 0 30px;
+  }
+  
+}
