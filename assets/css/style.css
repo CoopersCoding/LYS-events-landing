@@ -51,20 +51,17 @@ h6 {
   margin-top: 70px;
 }
 
-<<<<<<<<<<<<<<  ✨ Codeium Command 🌟 >>>>>>>>>>>>>>>>
-+/* This is the preloader section. It will be displayed while the rest of the page is loading. The preloader contains a white background and a city image in the center, which will fade out once the page is fully loaded. */
--/* Prelaoder */
--#preloader {
--  position: fixed;
--  left: 0;
--  top: 0;
--  z-index: 999;
--  width: 100%;
--  height: 100%;
--  overflow: visible;
--  background: #fff url("../img/Calgary-Canada-city\ photo1.png") no-repeat center center;
--}
-<<<<<<<  42e388b8-f19a-4d09-8178-42e072d6edf9  >>>>>>>
+/* Prelaoder */
+#preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  background: #fff url("../img/preloader.svg") no-repeat center center;
+}
 
 /*--------------------------------------------------------------
 # Back to top button
