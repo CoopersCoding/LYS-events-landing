@@ -1046,6 +1046,13 @@ h6 {
   padding: 0 20px;
 }
 
+#hotels h5 {
+  
+  font-size: 20px;
+  margin-bottom: 5px;
+  padding: 0 20px;
+}
+
 #hotels a {
   color: #152b79;
 }
@@ -1069,10 +1076,15 @@ h6 {
 
 #hotels p {
   padding: 0 20px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   color: #060c22;
   font-style: italic;
   font-size: 15px;
+}
+
+.hotel-info {
+  margin-bottom: 20px;
+
 }
 
 /*--------------------------------------------------------------
