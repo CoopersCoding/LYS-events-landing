@@ -1084,9 +1084,39 @@ h6 {
 
 .hotel-info {
   margin-bottom: 20px;
-
 }
 
+#venue .hotel-1 {
+  background: url("../img/hotels/Alt\ Hotel.jpg") no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+#venue .hotel-2 {
+  background: url("../img/hotels/FourPoints-Sheraton.jpeg") no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+#venue .hotel-3 {
+  background: url("../img/hotels/Sandman\ Hotel.jpg") no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+#venue .hotel-4 {
+  background: url("../img/hotels/VictoryBibleCollege.jpeg") no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 /*--------------------------------------------------------------
 # Gallery Section
 --------------------------------------------------------------*/
