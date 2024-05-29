@@ -15,6 +15,26 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+.hero-video {
+  width: 50%; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: auto;
+}
+
+
+
+@media screen and (max-width: 400px) {
+  .hero-video {
+      width: 100%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .hero-video {
+      width: 75%;
+  }
+}
+
 a {
   color: #B6463B;
   text-decoration: none;
