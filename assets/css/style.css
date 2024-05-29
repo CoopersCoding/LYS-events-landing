@@ -18,7 +18,7 @@ body {
 .hero-video {
   width: 50%; /* Adjust the width as needed */
   height: auto; /* Maintain aspect ratio */
-  margin-bottom: auto;
+  margin-bottom: 20px;
 }
 
 
@@ -522,7 +522,7 @@ h6 {
 
 #hero .hero-container {
   position: absolute;
-  bottom: 0;
+  bottom: 100px;
   left: 0;
   top: 90px;
   right: 0;
@@ -531,6 +531,7 @@ h6 {
   align-items: center;
   flex-direction: column;
   text-align: center;
+  margin-top: 120px;
   padding: 0 15px;
 }
 
